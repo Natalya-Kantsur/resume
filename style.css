@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0px;
 }
 .sidebar ul {
-  padding: 20px;
+  padding: 20px 0px;
 }
 .sidebar ul li {
   display: inline;
@@ -261,7 +261,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 0px 40px;
+  padding: 0px 50px;
 }
 .contact__block .contact__icon {
   width: 100px;
