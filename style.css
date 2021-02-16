@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio__block .portfolio__item a img, .contact__block .contact__icon a i, .contact__block .contact__icon a, .sidebar ul li a, .button a {
-  cursor: url("../../../img/pointer.cur"), pointer;
+  cursor: url("pointer.cur"), pointer;
 }
 
 .heading {
@@ -219,14 +219,14 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 900px) {
   .main {
     grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: "sidebar about about about about about" "sidebar skils skils skils skils skils" "contact portfolio portfolio portfolio portfolio portfolio";
+    grid-template-areas: "sidebar about about about about about" "contact skils skils skils skils skils" "contact portfolio portfolio portfolio portfolio portfolio";
   }
 }
 .sidebar {
   padding: 10px 0px;
 }
 .sidebar ul {
-  padding: 0px 30px;
+  padding: 20px;
 }
 .sidebar ul li {
   display: inline;
@@ -261,6 +261,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 0px 40px;
 }
 .contact__block .contact__icon {
   width: 100px;
@@ -291,13 +292,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio__block {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 .portfolio__block .portfolio__item {
   display: block;
   max-width: 300px;
   max-height: 180px;
-  margin: 50px 0px;
+  margin: 20px 0px;
   transition: all 1s;
 }
 .portfolio__block .portfolio__item a img {
@@ -346,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .about .about__wrapper .about__item {
   flex: 1 1 33%;
-  padding: 40px 40px;
+  padding: 30px 20px 10px;
 }
 .about .about__wrapper .about__item p {
   padding-top: 20px;
@@ -383,7 +385,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 * {
-  cursor: url("../../../img/cursor.cur"), auto;
+  cursor: url("cursor.cur"), auto;
 }
 
 html,
